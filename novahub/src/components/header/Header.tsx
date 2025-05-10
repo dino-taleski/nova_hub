@@ -9,7 +9,7 @@ const Header = () => {
                 <div className={styles.logo}>
                     <Link href={"/"}>
                         <img
-                            style={{ width: "15%" }}
+                            style={{ width: "100px" }}
                             src="/logo/nh_logo.png"
                             alt="nova hub logo"
                         />
