@@ -1,0 +1,27 @@
+.menu {
+    display: flex;
+    justify-content: space-AROUND;
+    padding: 20px 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.ul_lang {
+    display: flex;
+}
+
+.ul {
+    display: flex;
+}
+
+.ul p,
+.lang {
+    margin-left: 30px;
+    font-weight: 900;
+    font-size: large;
+}
+
+.ul,
+.lang {
+    align-self: center;
+}

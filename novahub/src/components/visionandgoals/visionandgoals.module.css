@@ -1,0 +1,71 @@
+.about_main {
+    width: 80%;
+    margin: 80px auto;
+    border: 1px solid rgba(255, 255, 255, 0.171);
+    border-top: 1px solid #b46bd8;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: rgba(132, 132, 134, 0.2) 0px 0px 60px 20px;
+    background-color: rgb(26, 26, 26);
+}
+
+.about_title {
+    font-weight: bold;
+    font-size: 32px;
+    padding-bottom: 25px;
+    margin-bottom: 35px;
+    border-bottom: 3px solid #60d0f5;
+    display: inline-block;
+    width: max-content;
+}
+
+.goalcard {
+    text-align: center;
+}
+
+.card_title {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.card_paragraph {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.cards_main {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards_inner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.goalcard {
+    background-color: rgb(19, 18, 18);
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid rgb(54, 54, 54);
+}
+
+.icon {
+    font-size: 48px;
+    color: #60d0f5;
+    margin: 25px 0;
+}
+
+.goalcard:hover {
+    scale: 1.024;
+    transition: scale 0.5s ease-in-out;
+    cursor: auto;
+    background-color: #653e791a;
+}
+
+.goalcard:hover .icon {
+    color: #b46bd8;
+    transition: color 0.5s ease-in-out;
+}
