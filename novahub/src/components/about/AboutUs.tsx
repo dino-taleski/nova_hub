@@ -27,7 +27,6 @@ const AboutUs = () => {
                     <img className={styles.img} src="/pic/im1.jpg" alt="" />
                 </div>
             </div>
-            ;
         </>
     );
 };
