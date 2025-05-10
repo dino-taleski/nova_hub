@@ -32,6 +32,9 @@
     border-radius: 50px;
     border: 2px solid #60d0f5;
     cursor: pointer;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-size: 24px;
 }
 
 .btn_blue:hover {
@@ -51,6 +54,9 @@
     border-radius: 50px;
     border: 2px solid #b46bd8;
     cursor: pointer;
+    font-family: Montserrat, sans-serif;
+    font-size: 24px;
+    color: white;
 }
 
 .btn_purple:hover {

@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <>
             <div className={styles.menu}>
-                <div style={{ fontSize: "24px", fontWeight: "bold" }}>
+                <div className={styles.logo}>
                     <Link href={"/"}>
                         <img
                             style={{ width: "15%" }}
