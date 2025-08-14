@@ -17,7 +17,7 @@ const Header = () => {
                 </div>
                 <div className={styles.ul_lang}>
                     <div className={styles.ul}>
-                        <Link href={""}>
+                        <Link href={"/about"}>
                             <p>About</p>
                         </Link>
                         <Link href={""}>
@@ -35,10 +35,11 @@ const Header = () => {
                         <Link href={""}>
                             <p>Contact</p>
                         </Link>
+                        <Link href={""}>
+                            <p>MK</p>
+                        </Link>
                     </div>
-                    <div className={styles.lang}>
-                        <p>MK</p>
-                    </div>
+                    <div className={styles.lang}></div>
                 </div>
             </div>
         </>
