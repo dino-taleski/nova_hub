@@ -1,0 +1,91 @@
+{
+    "menu": {
+        "about": "About",
+        "vision": "Vision",
+        "Team": "Team",
+        "inv": "Get Involved",
+        "partner": "Partnerships",
+        "contact": "Contact"
+    },
+    "home": {
+        "hero": {
+            "heading": "Emopwering Youth in North Macedonia",
+            "paragraph": "At Nova Hub, we are dedicated to fostering the growth and development of young people in the Republic of North Macedonia. Our mission is to create a vibrant community where youth can thrive, engage, and realize their full potential. ",
+            "volunteer.btn": "Volunteer",
+            "parther.ptn": "Partner with us"
+        },
+        "whoweare": {
+            "title": "Who We are",
+            "p1": "Nova Hub was founded with a clear mission: to empower and develop the youth of the Republic of North Macedonia. Recognizing the unique challenges faced by young people today, our organization was established to promote activities and initiatives that foster personal growth, healthy relationships, and active lifestyle.",
+            "p2": "Our story began with a group of passionate individuals who believed in the potential of youth and the importance of providing them with the tools and resources necessary to thirve in a rapidly changing world."
+        },
+        "impact": {
+            "title": "Creating Impact Together",
+            "p1": "Our intiatices enhance the quality of life for youth through education, community engagement and innovative apporaches",
+            "btn": "Join Us"
+        },
+        "v&g": {
+            "title": "Our Vision & Goals",
+            "heading1": "Enhancing Social Life",
+            "p1": "We created spaces for connection and community engagement, enriching the lives of youg people.",
+            "heading2": "Empowering Parents",
+            "p2": "We provide resources to help parents build healthy relationships with their children, fostering supportive environments.",
+            "heading3": "Building Confidence",
+            "p3": "Our programs promote self-confidence, critical thinking and decision-making skills, preparing yough for life's challenges.",
+            "heading4": "Promoting Active Lifestyles",
+            "p4": "We advocate for sports and physical activity, enouraging healthy habits among young people.",
+            "heading5": "Responsible Digital Engagement",
+            "p5": "We educate youth on the responsible use of social media, ensuring they navigate the digital world safely.",
+            "heading6": "Supporting Innovation",
+            "p6": "We inspire youth to pursue entrepreneurial initiatives and innovations, fostering independence and creativity.",
+            "heading7": "Collaborative Partnerships",
+            "p7": "We actively seek partnerships with local and international organizations to enhance our impact and reach"
+        },
+        "team": {
+            "title": "Meet the Team",
+            "mem1name": "Ivana Popovksa",
+            "mem1title": "Founder / President",
+            "mem1brief": "Program Coordinator. Passionate about youth development and community management",
+            "mem2name": "Velimir Popovski",
+            "mem2title": "Founder / Executive Director",
+            "mem2brief": "Community Engagement. Specialist. Dedicated to empowering young people.",
+            "mem3name": "Danka Popovska",
+            "mem3title": "Co-Founder / Project Facilitator",
+            "mem3brief": "Experience in community outreach and fostering healthy relationships among youth.",
+            "mem4name": "Tomislav Popovski",
+            "mem4title": "Board Member",
+            "mem4brief": "Professional background and vision for youth development in North Macedonia.",
+            "mem5name": "Aleksandra Gjorgjievska",
+            "mem5title": "Team Member",
+            "mem5brief": "Brings expertise and contributes to the mission of Nova Hub."
+        },
+        "getinvolved": {
+            "title": "Get Involved",
+            "uhead": "Join our dedicated team and help us create a positive impact in the lives of young people. We offer various volunteer roles, including:",
+            "l1": "Mentoring: Support youth by sharing your knowledgde.",
+            "l2": "Event Planning: Assist in organizing workshops, seminars and community events.",
+            "l3": "Community Outreach: Help us connect with local youth and promote our initiatives.",
+            "l4": "Program Facilitation: Lead or assist in workshop and training sessions focused on skill development and personal growth.",
+            "p1": "Your time and skills can help us enhance the quality of life for youg people in our community!"
+        },
+        "becomeapartner": {
+            "title": "Become a Partner",
+            "brief": "We invite businesses, ogranizations and individuals to join us in our mission through partnerships, joint events, sponsorships and resource sharing. Together, we can make a lasting impact!",
+            "heading1": "Partnerships",
+            "p1": "Align your organization with a cause dedicated to empowering youth. By collaborating, we can combine strengths, resources and expertise.",
+            "heading2": "Joint Events",
+            "p2": "Organize workshops, seminars, sports activities and awareness campaigns together. Reach a larger audience by combining our networks.",
+            "heading3": "Sponsorship",
+            "p3": "Support our programs and gain visibility for your brand. Demonstrate your commitment to social responsibility and community development.",
+            "heading4": "Resource Sharing",
+            "p4": "Collaborate for greater efficiency and impact. Share office space, expertise, traning or equipment to reduce costs and improve operation efficiency."
+        },
+        "contact": {
+            "title": "Contact",
+            "brief": "Have questions or want to get involved? Reach out to us:",
+            "email": "E-mail",
+            "phone": "Phone",
+            "loc": "Location"
+        }
+    }
+}

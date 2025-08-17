@@ -11,7 +11,8 @@ const Contact = () => {
                     <p className={styles.paragraph}>
                         Have questions or want to get involved? Reach out to us:
                     </p>
-                    <div className={styles.form_div}>
+                    {/* contact form */}
+                    {/* <div className={styles.form_div}>
                         <form className={styles.form}>
                             <div className={styles.nameemailinput}>
                                 <input
@@ -41,7 +42,7 @@ const Contact = () => {
                                 Send Message
                             </button>
                         </form>
-                    </div>
+                    </div> */}
                     <div className={styles.info}>
                         <div className={styles.info_inner}>
                             <div>
