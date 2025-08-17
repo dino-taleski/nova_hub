@@ -1,12 +1,15 @@
 import React from "react";
 import styles from "@/components/visionandgoals/visionandgoals.module.css";
+import { useTranslation } from "react-i18next";
 
 const VisionAndGoals = () => {
+    const [t, i18n] = useTranslation("global");
+
     return (
         <>
             <div className={styles.about_main}>
                 <div className={styles.blurb}>
-                    <p className={styles.about_title}>Our Vision & Goals</p>
+                    <p className={styles.about_title}>{t("home.v&g.title")}</p>
                     <div className={styles.cards_main}>
                         <div className={styles.cards_inner}>
                             <div className={styles.goalcard}>
@@ -14,12 +17,10 @@ const VisionAndGoals = () => {
                                     className={`fa-solid fa-people-arrows ${styles.icon}`}
                                 ></i>
                                 <p className={styles.card_title}>
-                                    Enhancing Social Life
+                                    {t("home.v&g.heading1")}
                                 </p>
                                 <p className={styles.card_paragraph}>
-                                    We created spaces for connection and
-                                    community engagement, enriching the lives of
-                                    youg people.
+                                    {t("home.v&g.p1")}
                                 </p>
                             </div>
                             <div className={styles.goalcard}>
@@ -27,12 +28,10 @@ const VisionAndGoals = () => {
                                     className={`fa-solid fa-child-reaching ${styles.icon}`}
                                 ></i>
                                 <p className={styles.card_title}>
-                                    Empowering Parents
+                                    {t("home.v&g.heading2")}
                                 </p>
                                 <p className={styles.card_paragraph}>
-                                    We provide resources to help parents build
-                                    healthy relationships with their children,
-                                    fostering supportive environments.
+                                    {t("home.v&g.p2")}
                                 </p>
                             </div>
                             <div className={styles.goalcard}>
@@ -40,13 +39,10 @@ const VisionAndGoals = () => {
                                     className={`fa-solid fa-rocket ${styles.icon}`}
                                 ></i>
                                 <p className={styles.card_title}>
-                                    Building Confidence
+                                    {t("home.v&g.heading3")}
                                 </p>
                                 <p className={styles.card_paragraph}>
-                                    Our programs promote self-confidence,
-                                    critical thinking and decision-making
-                                    skills, preparing yough for life&apos;s
-                                    challenges.
+                                    {t("home.v&g.p3")}
                                 </p>
                             </div>
                         </div>
@@ -56,12 +52,10 @@ const VisionAndGoals = () => {
                                     className={`fa-solid fa-heart-pulse ${styles.icon}`}
                                 ></i>
                                 <p className={styles.card_title}>
-                                    Promoting Active Lifestyles
+                                    {t("home.v&g.heading4")}
                                 </p>
                                 <p className={styles.card_paragraph}>
-                                    We advocate for sports and physical
-                                    activity, enouraging healthy habits among
-                                    young people.
+                                    {t("home.v&g.p4")}
                                 </p>
                             </div>
                             <div className={styles.goalcard}>
@@ -69,12 +63,10 @@ const VisionAndGoals = () => {
                                     className={`fa-solid fa-mobile-screen-button ${styles.icon}`}
                                 ></i>
                                 <p className={styles.card_title}>
-                                    Responsible Digital Engagement
+                                    {t("home.v&g.heading5")}
                                 </p>
                                 <p className={styles.card_paragraph}>
-                                    We educate youth on the responsible use of
-                                    social media, ensuring they navigate the
-                                    digital world safely.
+                                    {t("home.v&g.p5")}
                                 </p>
                             </div>
                             <div className={styles.goalcard}>
@@ -82,12 +74,10 @@ const VisionAndGoals = () => {
                                     className={`fa-solid fa-lightbulb ${styles.icon}`}
                                 ></i>
                                 <p className={styles.card_title}>
-                                    Supporting Innovation
+                                    {t("home.v&g.heading6")}
                                 </p>
                                 <p className={styles.card_paragraph}>
-                                    We inspire youth to pursue entrepreneurial
-                                    initiatives and innovations, fostering
-                                    independence and creativity.
+                                    {t("home.v&g.p6")}
                                 </p>
                             </div>
                         </div>
@@ -98,12 +88,10 @@ const VisionAndGoals = () => {
                                 className={`fa-solid fa-arrow-right-arrow-left ${styles.icon}`}
                             ></i>
                             <p className={styles.card_title}>
-                                Collaborative Partnerships
+                                {t("home.v&g.heading7")}
                             </p>
                             <p className={styles.card_paragraph}>
-                                We actively seek partnerships with local and
-                                international organizations to enhance our
-                                impact and reach.
+                                {t("home.v&g.p7")}
                             </p>
                         </div>
                     </div>

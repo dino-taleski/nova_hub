@@ -13,10 +13,10 @@
             "heading": "Emopwering Youth in North Macedonia",
             "paragraph": "At Nova Hub, we are dedicated to fostering the growth and development of young people in the Republic of North Macedonia. Our mission is to create a vibrant community where youth can thrive, engage, and realize their full potential. ",
             "volunteer.btn": "Volunteer",
-            "parther.ptn": "Partner with us"
+            "partner.btn": "Partner with us"
         },
         "whoweare": {
-            "title": "Who We are",
+            "title": "Who We Are",
             "p1": "Nova Hub was founded with a clear mission: to empower and develop the youth of the Republic of North Macedonia. Recognizing the unique challenges faced by young people today, our organization was established to promote activities and initiatives that foster personal growth, healthy relationships, and active lifestyle.",
             "p2": "Our story began with a group of passionate individuals who believed in the potential of youth and the importance of providing them with the tools and resources necessary to thirve in a rapidly changing world."
         },
@@ -44,7 +44,8 @@
         },
         "team": {
             "title": "Meet the Team",
-            "mem1name": "Ivana Popovksa",
+            "p1": "At Nova Hub, our dedicated team is the backbone of our organization. We are proud to introduce our key members, founders, and board members who are committed to empowering youth in North Macedonia:",
+            "mem1name": "Ivana Popovska",
             "mem1title": "Founder / President",
             "mem1brief": "Program Coordinator. Passionate about youth development and community management",
             "mem2name": "Velimir Popovski",
@@ -88,5 +89,83 @@
             "phone": "Phone",
             "loc": "Location"
         }
+    },
+    "aboutus": {
+        "tag": "Who We Are",
+        "p1": "Nova Hub was founded with a clear mission: to empower and develop the youth of the Republic of North Macedonia. Recognizing the unique challenges faced by young people today, our organization was established to promote activities and initiatives that foster personal growth, healthy relationships, and active lifestyles.",
+        "p2": "Our story began with a group of passionate individuals who believed in the potential of youth and the importance of providing them with the tools and resources necessary to thrive in a rapidly changing world. Through workshops, training sessions, and community engagement, we aim to create a supportive environment where young people can flourish and contribute positively to society.",
+        "p3": "Our Vision & Goals",
+        "p4": "At Nova Hub, our vision is to create a society where every young person in North Macedonia has access to opportunities that enhance their quality of life. Our long-term goals include:",
+        "l1": "Enhancing Social Life: We create spaces for connection and community engagement, enriching the lives of young people.",
+        "l2": "Empowering Parents: We provide resources to help parents build healthy relationships with their children, fostering supportive environments.",
+        "l3": "Building Confidence: Our programs promote self-confidence, critical thinking, and decision-making skills, preparing youth for life's challenges.",
+        "l4": "Promoting Active Lifestyles: We advocate for sports and physical activity, encouraging healthy habits among young people.",
+        "l5": "Responsible Digital Engagement: We educate youth on the responsible use of social media, ensuring they navigate the digital world safely.",
+        "l6": "Supporting Innovation: We inspire youth to pursue entrepreneurial initiatives and innovations, fostering independence and creativity.",
+        "l7": "Collaborative Partnerships: We actively seek partnerships with local and international organizations to enhance our impact and reach.",
+        "p5": "Through these goals, we aim to create a lasting impact on the lives of young people, equipping them with the skills and confidence they need to succeed."
+    },
+    "vis": {
+        "tag": "Our Vision",
+        "p1": "We envision a future where every young person has access to opportunities that enhance their social life, health, and well-being. Our initiatives focus on:",
+        "l1": "Enhancing Social Life: We create spaces for connection and community engagement, enriching the lives of young people.",
+        "l2": "Empowering Parents: We provide resources to help parents build healthy relationships with their children, fostering supportive environments.",
+        "l3": "Building Confidence: Our programs promote self-confidence, critical thinking, and decision-making skills, preparing youth for life's challenges.",
+        "l4": "Promoting Active Lifestyles: We advocate for sports and physical activity, encouraging healthy habits among young people.",
+        "l5": "Responsible Digital Engagement: We educate youth on the responsible use of social media, ensuring they navigate the digital world safely.",
+        "l6": "Supporting Innovation: We inspire youth to pursue entrepreneurial initiatives and innovations, fostering independence and creativity.",
+        "l7": "Collaborative Partnerships: We actively seek partnerships with local and international organizations to enhance our impact and reach.",
+        "mission": "Mission Statement",
+        "p2": "At Nova Hub, we empower young people in North Macedonia by providing opportunities for personal growth, fostering healthy relationships, and promoting active lifestyles. Our mission is to enhance the quality of life for youth through education, community engagement, and innovative initiatives, ensuring they have the skills and confidence to thrive in a rapidly changing world. We exist to inspire the next generation to reach their full potential and contribute positively to society."
+    },
+    "partner": {
+        "title": "Become a Partner with Nova Hub",
+        "p1": "At Nova Hub, we believe in the power of collaboration to create meaningful change in the lives of young people in North Macedonia. We invite businesses, organizations, and individuals to join us in our mission through partnerships, joint events, sponsorships, and resource sharing. Together, we can make a lasting impact!",
+        "card1main": "Partnerships",
+        "card1heading": "Why Partner with Us?",
+        "card1text": "Partnering with Nova Hub allows you to align your organization with a cause dedicated to empowering youth. By collaborating, we can combine our strengths, resources, and expertise to create innovative programs and initiatives that benefit the community.",
+        "card2heading": "How to Partner:",
+        "card2l1": "Identify Common Goals: Let’s discuss how our missions align and how we can work together to achieve shared objectives.",
+        "card2l2": "Formalize the Partnership: We can establish a partnership agreement that outlines roles, responsibilities, and expectations."
+    },
+    "events": {
+        "card1main": "Joint Events",
+        "card1heading": "Collaborate on Events:",
+        "card1text": "Join us in organizing events that engage the community and promote youth development. Joint events can include workshops, seminars, sports activities, and awareness campaigns.",
+        "card2heading": "Benefits of Joint Events:",
+        "card2l1": "Increased Visibility: Reach a larger audience by combining our networks.",
+        "card2l2": "Shared Resources: Reduce costs and share responsibilities for event planning and execution.",
+        "card2l3": "Enhanced Impact: Create a more significant impact by pooling resources and expertise.",
+        "card3heading": "How to Get Involved:",
+        "card3l1": "Propose an Event Idea: Share your ideas for potential joint events that align with our mission..",
+        "card3l2": "Plan Together: Work with our team to develop a comprehensive event plan that benefits both organizations."
+    },
+    "sponsor": {
+        "card1main": "Sponsorship Opportunities",
+        "card1heading": "Support Our Mission:",
+        "card1text": "Become a sponsor of Nova Hub and help us fund our programs and initiatives aimed at empowering youth. Your support can make a significant difference in the lives of young people.",
+        "card2heading": "Sponsorship Benefits:",
+        "card2l1": "Brand Visibility: Gain exposure through our marketing materials, events, and online platforms.",
+        "card2l2": "Community Engagement: Demonstrate your commitment to social responsibility and community development.",
+        "card2l3": "Networking Opportunities: Connect with other organizations and stakeholders in the community.",
+        "card3heading": "Sponsorship Levels:",
+        "card3p1": "We offer various sponsorship levels to fit your organization’s goals and budget. Contact us to learn more about how you can support our mission."
+    },
+    "resource": {
+        "card1main": "Resource Sharing",
+        "card1heading": "Collaborate for Greater Efficiency:",
+        "card1text": "Resource sharing can enhance our collective impact. By sharing resources such as office space, equipment, or expertise, we can reduce costs and improve operational efficiency.",
+        "card2heading": "Types of Resources to Share:",
+        "card2l1": "Office Space: Collaborate in a shared workspace to foster innovation and teamwork.",
+        "card2l2": "Training and Expertise: Share knowledge and skills through workshops and training sessions.",
+        "card2l3": "Materials and Equipment: Pool resources to access necessary tools and materials for programs.",
+        "card3heading": "How to Initiate Resource Sharing:",
+        "card3l1": "Discuss Your Resources: Let us know what resources you can share and how we can collaborate effectively.",
+        "card3l2": "Establish Agreements: Create clear agreements outlining the terms of resource sharing to ensure mutual benefit."
+    },
+    "contact": {
+        "title": "Get in Touch",
+        "p1": "If you are interested in becoming a partner, organizing joint events, sponsoring our initiatives, or sharing resources, we would love to hear from you! Please reach out to us directly at info@novahub.mk.",
+        "p2": "Together, we can empower the youth of North Macedonia and create a brighter future for our community! Thank you for considering a partnership with Nova Hub."
     }
 }

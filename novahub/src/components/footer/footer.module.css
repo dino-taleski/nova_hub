@@ -55,3 +55,12 @@
     transition: color 0.5s ease-out;
     cursor: pointer;
 }
+
+.ul li a p {
+    color: white;
+    margin: 0;
+}
+.ul li a {
+    text-decoration: none;
+    display: inline-block;
+}

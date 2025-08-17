@@ -1,43 +1,32 @@
 import React from "react";
 import styles from "@/components/getinvolved/getinvolved.module.css";
+import { useTranslation } from "react-i18next";
 
 const GetInvolved = () => {
+    const [t, i18n] = useTranslation("global");
+
     return (
         <>
-            <div className={styles.about_main}>
+            <div id="getInvolved" className={styles.about_main}>
                 <div className={styles.blurb}>
-                    <p className={styles.about_title}>Get Involved</p>
+                    <p className={styles.about_title}>
+                        {t("home.getinvolved.title")}
+                    </p>
                 </div>
 
                 <div className={styles.info_main}>
                     <div>
                         <p className={styles.text}>
-                            Join our dedicated team and help us create a
-                            positive impact in the lives of young people. We
-                            offer various volunteer roles, including:
+                            {t("home.getinvolved.uhead")}
                         </p>
                         <ul className={`${styles.text} ${styles.ul}`}>
-                            <li>
-                                Mentoring: Support youth by sharing your
-                                knowledgde.
-                            </li>
-                            <li>
-                                Event Planning: Assist in organizing workshops,
-                                seminars and community events.
-                            </li>
-                            <li>
-                                Community Outreach: Help us connect with local
-                                youth and promote our initiatives.
-                            </li>
-                            <li>
-                                Program Facilitation: Lead or assist in workshop
-                                and training sessions focused on skill
-                                development and personal growth.
-                            </li>
+                            <li>{t("home.getinvolved.l1")}</li>
+                            <li>{t("home.getinvolved.l2")}</li>
+                            <li>{t("home.getinvolved.l3")}</li>
+                            <li>{t("home.getinvolved.l4")}</li>
                         </ul>
                         <p className={styles.text}>
-                            Your time and skills can help us enhance the quality
-                            of life for youg people in our community!
+                            {t("home.getinvolved.p1")}
                         </p>
                     </div>
                     <div>

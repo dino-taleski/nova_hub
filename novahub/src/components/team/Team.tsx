@@ -1,77 +1,76 @@
 import React from "react";
 import styles from "@/components/team/team.module.css";
+import { useTranslation } from "react-i18next";
 
 const Team = () => {
+    const [t, i18n] = useTranslation("global");
+
     return (
         <>
-            <div className={styles.about_main}>
+            <div id="team" className={styles.about_main}>
                 <div className={styles.blurb}>
-                    <p className={styles.about_title}>Meet the Team</p>
+                    <p className={styles.about_title}>{t("home.team.title")}</p>
+                    <p>{t("home.team.p1")}</p>
                     <div className={styles.cards_main}>
                         <div className={styles.cards_inner}>
                             <div className={styles.goalcard}>
                                 <p className={styles.img_plc}>IP</p>
                                 <p className={styles.card_title}>
-                                    Ivana Popovska
+                                    {t("home.team.mem1name")}
                                 </p>
                                 <p className={styles.card_subtitle}>
-                                    Founder / President
+                                    {t("home.team.mem1title")}
                                 </p>
                                 <p className={styles.card_paragraph}>
-                                    Program Coordinator. Passionate about youth
-                                    development and community management.
+                                    {t("home.team.mem1brief")}
                                 </p>
                             </div>
                             <div className={styles.goalcard}>
                                 <p className={styles.img_plc}>VP</p>
                                 <p className={styles.card_title}>
-                                    Velimir Popovski
+                                    {t("home.team.mem2name")}
                                 </p>
                                 <p className={styles.card_subtitle}>
-                                    Founder / Executive Director
+                                    {t("home.team.mem2title")}
                                 </p>
                                 <p className={styles.card_paragraph}>
-                                    Community Engagement. Specialist. Dedicated
-                                    to empowering young people.
+                                    {t("home.team.mem2brief")}
                                 </p>
                             </div>
                             <div className={styles.goalcard}>
                                 <p className={styles.img_plc}>DP</p>
                                 <p className={styles.card_title}>
-                                    Danka Popovska
+                                    {t("home.team.mem3name")}
                                 </p>
                                 <p className={styles.card_subtitle}>
-                                    Co-Founder / Project Facilitator
+                                    {t("home.team.mem3title")}
                                 </p>
                                 <p className={styles.card_paragraph}>
-                                    Experience in community outreach and
-                                    fostering healthy relationships among youth.
+                                    {t("home.team.mem3brief")}
                                 </p>
                             </div>
                             <div className={styles.goalcard}>
                                 <p className={styles.img_plc}>TP</p>
                                 <p className={styles.card_title}>
-                                    Tomislav Popovski
+                                    {t("home.team.mem4name")}
                                 </p>
                                 <p className={styles.card_subtitle}>
-                                    Board Member
+                                    {t("home.team.mem4title")}
                                 </p>
                                 <p className={styles.card_paragraph}>
-                                    Professional background and vision for youth
-                                    development in North Macedonia.
+                                    {t("home.team.mem4brief")}
                                 </p>
                             </div>
                             <div className={styles.goalcard}>
                                 <p className={styles.img_plc}>AG</p>
                                 <p className={styles.card_title}>
-                                    Aleksandra Gjorgjievska
+                                    {t("home.team.mem5name")}
                                 </p>
                                 <p className={styles.card_subtitle}>
-                                    Team Member
+                                    {t("home.team.mem5title")}
                                 </p>
                                 <p className={styles.card_paragraph}>
-                                    Brings expertise and contributes to the
-                                    mission of Nova Hub.
+                                    {t("home.team.mem5brief")}
                                 </p>
                             </div>
                         </div>

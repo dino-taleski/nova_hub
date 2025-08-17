@@ -36,19 +36,19 @@ const Header = () => {
                         <Link href={"/about"}>
                             <p>{t("menu.about")}</p>
                         </Link>
-                        <Link href={""}>
+                        <Link href={"/our-vision"}>
                             <p>{t("menu.vision")}</p>
                         </Link>
-                        <Link href={""}>
+                        <Link href={"/#team"}>
                             <p>{t("menu.team")}</p>
                         </Link>
-                        <Link href={""}>
+                        <Link href={"#getInvolved"}>
                             <p>{t("menu.inv")}</p>
                         </Link>
-                        <Link href={""}>
+                        <Link href={"/partnerships"}>
                             <p>{t("menu.partner")}</p>
                         </Link>
-                        <Link href={""}>
+                        <Link href={"#contact"}>
                             <p>{t("menu.contact")}</p>
                         </Link>
                         <Link href={""}>

@@ -21,4 +21,6 @@ body {
     background: var(--background);
     color: #ffffff;
     font-family: Montserrat, sans-serif;
+    margin: 0;
+    padding: 0;
 }

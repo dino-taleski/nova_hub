@@ -1,0 +1,142 @@
+.maindiv {
+    width: 80%;
+    margin: 40px auto;
+}
+
+/* about us page */
+
+.aboutusbanner {
+    background-image: url("/imgs/1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    position: relative;
+}
+
+.aboutusbanner p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    margin: 0;
+}
+
+.paragraph {
+    font-size: larger;
+}
+
+.vision {
+    font-size: xx-large;
+    text-align: center;
+    margin: 40px 0;
+}
+
+/* vision page*/
+
+.ul {
+    margin: 40px 0;
+}
+
+.ul li {
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.mission {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.statement {
+    font-size: large;
+    margin-bottom: 40px;
+}
+
+.visionbanner {
+    background-image: url("/imgs/3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    position: relative;
+}
+
+.visionbanner p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    margin: 0;
+}
+
+/* partnerships */
+
+.partnershipsbanner {
+    background-image: url("/imgs/4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    position: relative;
+}
+
+.partnershipsbanner p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    margin: 0;
+}
+
+.mainheading {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.partnercardsinner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+    font-weight: 300;
+}
+
+.eventscardsinner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    font-weight: 300;
+}
+
+.sponcardsinner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    font-weight: 300;
+}
+
+.rescardsinner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    font-weight: 300;
+}
+
+.partnercardsinner ul li,
+.eventscardsmain ul li,
+.sponcardsinner ul li,
+.rescardsinner ul li {
+    color: #60d0f5;
+    margin-bottom: 20px;
+}
+
+.contact {
+    text-align: center;
+}
+
+.regulartext {
+    font-weight: 300;
+}

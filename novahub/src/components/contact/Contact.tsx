@@ -4,7 +4,7 @@ import styles from "@/components/contact/contact.module.css";
 const Contact = () => {
     return (
         <>
-            <div className={styles.about_main}>
+            <div id="contact" className={styles.about_main}>
                 <div className={styles.blurb}>
                     <p className={styles.about_title}>Contact</p>
 

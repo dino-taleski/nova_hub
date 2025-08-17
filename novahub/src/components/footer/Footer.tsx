@@ -1,7 +1,11 @@
 import React from "react";
 import styles from "@/components/footer/footer.module.css";
+import { useTranslation } from "react-i18next";
+import Link from "next/link";
 
 const Footer = () => {
+    const [t, i18n] = useTranslation("global");
+
     return (
         <>
             <div style={{ borderTop: "1px solid #b46bd8" }}>
@@ -23,11 +27,27 @@ const Footer = () => {
                     <div className={styles.footer_inner}>
                         <p className={styles.footer_title}>Quick Links</p>
                         <ul className={styles.ul}>
-                            <li>About Us</li>
-                            <li>Our Vision</li>
-                            <li>Our Team</li>
+                            <li>
+                                <Link href={"/about"}>
+                                    <p>{t("menu.about")}</p>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href={"/our-vision"}>
+                                    <p>{t("menu.vision")}</p>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href={"/#team"}>
+                                    <p>{t("menu.team")}</p>
+                                </Link>
+                            </li>
                             <li>Volunteer</li>
-                            <li>Partnership</li>
+                            <li>
+                                <Link href={"/partnerships"}>
+                                    <p>{t("menu.partner")}</p>
+                                </Link>
+                            </li>
                         </ul>
                     </div>
                     <div className={styles.footer_inner}>
