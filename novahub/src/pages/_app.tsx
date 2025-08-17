@@ -4,18 +4,21 @@ import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 import Script from "next/script";
 
+import global_mk from "@/translations/mk/global.json";
+import global_eng from "@/translations/eng/global.json";
+
 import i18next from "i18next";
 import { I18nextProvider } from "react-i18next";
 
 i18next.init({
     interpolation: { escapeValue: true },
-    lng: "mk",
+    lng: "eng",
     resources: {
         mk: {
-            global: "global_mk",
+            global: global_mk,
         },
         eng: {
-            global: "global_eng",
+            global: global_eng,
         },
     },
 });

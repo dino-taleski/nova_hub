@@ -2,10 +2,11 @@
     "menu": {
         "about": "About",
         "vision": "Vision",
-        "Team": "Team",
+        "team": "Team",
         "inv": "Get Involved",
         "partner": "Partnerships",
-        "contact": "Contact"
+        "contact": "Contact",
+        "lang": "Language"
     },
     "home": {
         "hero": {
