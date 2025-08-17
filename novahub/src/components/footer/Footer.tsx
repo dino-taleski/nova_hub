@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import Link from "next/link";
 
 const Footer = () => {
-    const [t, i18n] = useTranslation("global");
+    const [t] = useTranslation("global");
 
     return (
         <>

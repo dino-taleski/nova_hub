@@ -3,7 +3,7 @@ import styles from "@/components/hero/hero.module.css";
 import { useTranslation } from "react-i18next";
 
 const Hero = () => {
-    const [t, i18n] = useTranslation("global");
+    const [t] = useTranslation("global");
 
     return (
         <>

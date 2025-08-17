@@ -4,7 +4,7 @@ import styles from "@/styles/globalsPages.module.css";
 import { useTranslation } from "react-i18next";
 
 const Partnerships: NextPage = () => {
-    const [t, i18n] = useTranslation("global");
+    const [t] = useTranslation("global");
 
     return (
         <>

@@ -3,7 +3,7 @@ import styles from "@/components/about/aboutus.module.css";
 import { useTranslation } from "react-i18next";
 
 const AboutUs = () => {
-    const [t, i18n] = useTranslation("global");
+    const [t] = useTranslation("global");
 
     return (
         <>

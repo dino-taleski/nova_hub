@@ -3,7 +3,7 @@ import styles from "@/components/visionandgoals/visionandgoals.module.css";
 import { useTranslation } from "react-i18next";
 
 const VisionAndGoals = () => {
-    const [t, i18n] = useTranslation("global");
+    const [t] = useTranslation("global");
 
     return (
         <>

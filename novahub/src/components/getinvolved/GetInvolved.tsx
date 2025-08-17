@@ -3,7 +3,7 @@ import styles from "@/components/getinvolved/getinvolved.module.css";
 import { useTranslation } from "react-i18next";
 
 const GetInvolved = () => {
-    const [t, i18n] = useTranslation("global");
+    const [t] = useTranslation("global");
 
     return (
         <>
